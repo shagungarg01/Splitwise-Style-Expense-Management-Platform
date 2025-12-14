@@ -6,25 +6,6 @@ A production-ready, full-stack expense management platform inspired by Splitwise
 
 This project showcases my ability to design, build, and deploy scalable systems with clean separation of concerns, background processing, and cloud deployment.
 
-**Architecture Overview**
-
-Client (Next.js)
-      ↓
-Convex Backend (Queries, Mutations, Actions)
-      ↓
-Inngest (Background Jobs & Cron)
-      ↓
-Gemini AI + Email Service
-
-**Project Structure**
-.
-├── app/                 # Next.js App Router
-├── convex/              # Backend schema & functions
-├── lib/
-│   └── inngest/         # Background workflows
-├── public/
-├── styles/
-└── README.md
 
 ## Getting Started
 
